@@ -1,0 +1,78 @@
+{
+  "name": "pnw",
+  "version": "1.0.0",
+  "description": "pusher|push notifications web for svelte",
+  "main": "index.js",
+  "dependencies": {
+    "babel-jest": "^24.9.0",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-formatter-pretty": "^4.1.0",
+    "eslint-rule-docs": "^1.1.235",
+    "eslint-scope": "^3.7.3",
+    "eslint-visitor-keys": "^1.3.0",
+    "express": "^4.21.0",
+    "jest": "^24.9.0",
+    "jest-fetch-mock": "^2.1.2",
+    "prettier": "^1.17.0",
+    "publish-please": "^5.5.2",
+    "rollup": "^1.32.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^4.2.4",
+    "selenium-webdriver": "^4.24.0",
+    "tsd": "^0.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/runtime": "^7.4.5",
+    "babel-jest": "^24.7.1",
+    "eslint": "^4.14.0",
+    "eslint-config-prettier": "^4.0.0",
+    "express": "^4.16.4",
+    "jest": "^24.7.1",
+    "jest-fetch-mock": "^2.1.2",
+    "prettier": "1.17.0",
+    "publish-please": "^5.5.1",
+    "rollup": "^1.10.0",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "selenium-webdriver": "^4.0.0-alpha.3",
+    "tsd": "^0.13.1"
+  },
+  "scripts": {
+    "test": "npm test",
+    "build": "npm build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/aslotsu/pnw"
+  },
+  "keywords": [
+    "pusher-beams",
+    "svelte",
+    "sveltekit",
+    "@pusher/push-notifications-web"
+  ],
+  "author": "Alfred Lotsu",
+  "license": "ISC",
+  "types": "./index.d.ts",
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
+  },
+  "type": "module"
+}
